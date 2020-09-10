@@ -1,0 +1,35 @@
+'''
+Statement :-
+Write a program to print the following format :-
+
+        Escape Character          Use
+
+                \n              Newline
+
+                \t              Space Tab
+
+                '               Single Quote
+
+                "               Double Quote
+'''
+# Program :-
+
+print("\n\tEscape Character\t  Use\n\n\t\t\\n\t\tNewline\n\n\t\t\\t\t\tSpace Tab\n\n\t\t\'\t\tSingle Quote\n\n\t\t\"\t\tDouble Quote\n\n\t")
+
+
+'''
+OUTPUT :- 
+
+C:\Users\Inet computer\Desktop>python ass1.py
+
+        Escape Character          Use
+
+                \n              Newline
+
+                \t              Space Tab
+
+                '               Single Quote
+
+                "               Double Quote
+                
+'''
