@@ -1,0 +1,13 @@
+num = int(input("Enter number:"))
+even=[]
+odd = []
+even_sum=odd_sum=0
+for i in range(num):
+    if(i%2==0):
+        even.append(i)
+        even_sum=even_sum+i
+    else:
+        odd.append(i)
+        odd_sum=odd_sum+i
+print("\nEven numbers: ",*even,"\nSum of Even Numbers: ",even_sum,"\n")
+print("Odd numbers: ",*odd,"\nSum of Odd Numbers: ",odd_sum,"\n")
