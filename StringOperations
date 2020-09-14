@@ -1,0 +1,6 @@
+string = input("Enter string:")
+print("Odd Position Characters :- ")
+for i in range(1, len(string), 2):
+    print(string[i], end="  ")
+
+print("\nReverse of the Given String :- ", string[::-1])
